@@ -1,0 +1,53 @@
+{
+  "recorded_date": "2026-09-23",
+  "image": {
+    "model": "marketing-studio/image",
+    "requested": {
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "enhance_prompt": false
+    },
+    "observed": {
+      "width": 2048,
+      "height": 1360,
+      "format": "png"
+    }
+  },
+  "video": {
+    "model": "bytedance/seedance-2.0/image-to-video",
+    "requested": {
+      "duration": 10,
+      "resolution": "720p",
+      "generate_audio": true
+    },
+    "observed": {
+      "width": 1112,
+      "height": 834,
+      "container_duration_seconds": 10.08,
+      "video_stream_duration_seconds": 10.041667,
+      "fps": 24,
+      "video_codec": "h264",
+      "audio_codec": "aac"
+    }
+  },
+  "provenance": "Video generation used the original generated image URL. Public reproduction examples replace the account-scoped delivery URL with the byte-identical GitHub Pages copy.",
+  "billing": "No account invoice or actual charge was captured. Published rate calculations are estimates only.",
+  "assets": {
+    "globe.png": {
+      "bytes": 4503945,
+      "sha256": "a20c0363d851550d07c80b7ddb61de2bd43bc4a6a3dc71b63ba2931fcec1076e"
+    },
+    "globe.mp4": {
+      "bytes": 4077320,
+      "sha256": "a1f1657a04ea8fba82a9baa17b22ce1a4d03cef4c69782c85456851652025989"
+    },
+    "video-first-frame.jpg": {
+      "bytes": 224536,
+      "sha256": "5a190c3809439d81d9705b6c0f0d92567ce01f1411bc9d9f3b136ba5e531263b"
+    },
+    "video-contact-sheet.jpg": {
+      "bytes": 154252,
+      "sha256": "d55f5e37b56d0b55e088d3c38c48527bc6b12700b17f695403b1835c7f88c21c"
+    }
+  }
+}

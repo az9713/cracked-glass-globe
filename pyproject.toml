@@ -1,0 +1,17 @@
+[project]
+name = "higgsfield-api-workspace"
+version = "0.1.0"
+description = "Model-independent Higgsfield SDK client and command-line tools"
+requires-python = ">=3.11"
+dependencies = [
+  "higgsfield-client==0.2.0",
+  "python-dotenv==1.2.3",
+  "httpx==0.28.1",
+]
+
+[dependency-groups]
+dev = ["pytest==9.1.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

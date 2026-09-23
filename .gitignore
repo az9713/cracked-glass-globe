@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+outputs/
+*.log
+README_lipsky.txt
+.ignore/
+.codex/
+.local/

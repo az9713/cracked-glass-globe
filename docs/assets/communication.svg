@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 490" role="img" aria-labelledby="title desc"><title id="title">Who talks to whom</title><desc id="desc">A human approves the language-model assistant Astro. Astro drives a local Python SDK. The SDK authenticates to Higgsfield. The provider routes jobs to image and video models and returns media URLs. The generated image becomes the input to the video job. Exact internal infrastructure is unobserved.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#d4aa74" stroke-width="1.4"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#eae9e1}.box{fill:#202626;stroke:#617574;stroke-width:1.4}.head{font-size:19px;font-weight:650}.sub{font-size:14px;fill:#c0c9c6}.line{fill:none;stroke:#d4aa74;stroke-width:2;marker-end:url(#arrow)}.label{font-size:13px;fill:#e1c49f}</style>
+<rect width="1000" height="490" rx="18" fill="#101717"/>
+<rect class="box" x="25" y="55" width="185" height="90" rx="12"/><text class="head" x="43" y="88">Human</text><text class="sub" x="43" y="113">Intent · budget · approval</text>
+<rect class="box" x="285" y="55" width="185" height="90" rx="12"/><text class="head" x="303" y="88">Astro / assistant</text><text class="sub" x="303" y="113">Reasoning · tools · review</text>
+<rect class="box" x="545" y="55" width="200" height="90" rx="12"/><text class="head" x="563" y="88">Local Python SDK</text><text class="sub" x="563" y="113">Credentials stay here</text>
+<path class="line" d="M210 100 H279"/><path class="line" d="M470 100 H539"/><text class="label" x="220" y="82">approve</text><text class="label" x="480" y="82">execute</text>
+<path class="line" d="M645 145 V210"/><text class="label" x="658" y="182">HTTPS + JSON / poll</text>
+<rect x="25" y="211" width="950" height="250" rx="15" fill="#172021" stroke="#748e8a" stroke-dasharray="7 5"/><text class="sub" x="43" y="239">PROVIDER BOUNDARY · logical roles, not a verified deployment map</text>
+<rect class="box" x="545" y="260" width="200" height="90" rx="12"/><text class="head" x="563" y="292">Higgsfield API</text><text class="sub" x="563" y="318">Auth · job state · routing</text>
+<rect class="box" x="35" y="260" width="210" height="90" rx="12"/><text class="head" x="53" y="292">Marketing Studio</text><text class="sub" x="53" y="318">Image generation endpoint</text>
+<rect class="box" x="290" y="260" width="205" height="90" rx="12"/><text class="head" x="308" y="292">Seedance 2.0</text><text class="sub" x="308" y="318">Image + motion → video</text>
+<path class="line" d="M545 277 H502"/><path class="line" d="M545 259 V249 H141 V254"/>
+<rect class="box" x="795" y="260" width="165" height="90" rx="12"/><text class="head" x="813" y="292">Media delivery</text><text class="sub" x="813" y="318">PNG / MP4 URLs</text><path class="line" d="M745 306 H789"/>
+<path class="line" d="M141 350 V400 H392 V356"/><text class="label" x="147" y="425">Generated PNG URL reused in the second request</text>
+<path class="line" d="M878 259 V34 H646 V49"/><text class="label" x="749" y="25">status + output URLs</text>
+<text class="sub" x="549" y="402">Inference workers, GPU fleet, model revisions,</text><text class="sub" x="549" y="425">and preprocessing internals were not inspected.</text></svg>
