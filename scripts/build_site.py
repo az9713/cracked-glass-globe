@@ -74,7 +74,7 @@ def main():
 <rect class="box" x="545" y="260" width="200" height="90" rx="12"/><text class="head" x="563" y="292">Higgsfield API</text><text class="sub" x="563" y="318">Auth · job state · routing</text>
 <rect class="box" x="35" y="260" width="210" height="90" rx="12"/><text class="head" x="53" y="292">Marketing Studio</text><text class="sub" x="53" y="318">Image generation endpoint</text>
 <rect class="box" x="290" y="260" width="205" height="90" rx="12"/><text class="head" x="308" y="292">Seedance 2.0</text><text class="sub" x="308" y="318">Image + motion → video</text>
-<path class="line" d="M545 277 H502"/><path class="line" d="M545 259 V249 H141 V254"/>
+<path class="line" d="M545 277 H502"/><path class="line" d="M545 259 V249 H265 V300 H251"/>
 <rect class="box" x="795" y="260" width="165" height="90" rx="12"/><text class="head" x="813" y="292">Media delivery</text><text class="sub" x="813" y="318">PNG / MP4 URLs</text><path class="line" d="M745 306 H789"/>
 <path class="line" d="M141 350 V400 H392 V356"/><text class="label" x="147" y="425">Generated PNG URL reused in the second request</text>
 <path class="line" d="M878 259 V34 H646 V49"/><text class="label" x="749" y="25">status + output URLs</text>
